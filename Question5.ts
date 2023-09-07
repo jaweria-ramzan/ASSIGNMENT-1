@@ -1,3 +1,4 @@
+//Jaweria Ramzan
 //Stripping Names
 //Name with WhiteSpaces
 let pers_name="\t Jaweria \n";//Used "\t and \n"

@@ -15,3 +15,4 @@ console.log(num5 - num6);
 let num7=64;
 let num8=8;
 console.log(num7 / num8);
+//Jaweria Ramzan
