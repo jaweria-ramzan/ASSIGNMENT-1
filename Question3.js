@@ -1,6 +1,9 @@
 "use strict";
-//Famous Quote
-let famPerson = "Albert Einstein";
-let Quote = '"A person who never made a mistake never tried anything new."';
-let Message = `${famPerson} once said,${Quote}`;
-console.log(Message);
+//Name Cases
+let PersonName = "Jaweria";
+console.log(PersonName); //original string
+//In Lower Case
+console.log(PersonName.toLowerCase());
+//In Upper Case
+console.log(PersonName.toUpperCase());
+//TitleCase for Advance Students

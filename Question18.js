@@ -1,16 +1,27 @@
 "use strict";
-//Typescript Object
-//creating a typescript object ...storing items in it
-let fruits = {
-    fruit1: "Banana",
-    fruit2: "Apple",
-    fruit3: "Kiwi",
-    fruit4: "StrawBerry",
-    fruit5: "Mango",
-};
-//accessing the items
-console.log(fruits.fruit1);
-console.log(fruits.fruit2);
-console.log(fruits.fruit3);
-console.log(fruits.fruit4);
-console.log(fruits.fruit5);
+//Seeing the World
+let placeName = ["Queeta", "Islamabad", "Turkey", "Kashmir", "Chitral"];
+console.log(placeName); //original order
+//printing the array in alphabetical order without modifying the actual list
+//sorting the array
+let sortedArray = placeName.slice().sort();
+console.log(sortedArray);
+//original order of array"placeName"
+console.log(placeName);
+//Reverse Alphabetical Order//sorting the array list in reverse alphabetical order
+let rAlphabeticArray = placeName.slice().sort((a, b) => b.localeCompare(a));
+console.log(rAlphabeticArray);
+//original order of array"placeName"
+console.log(placeName);
+//reversing the order of the list
+placeName.reverse();
+console.log(placeName);
+//re-reversing the array to original one
+placeName.reverse();
+console.log(placeName);
+//sorting the array in alphabetical order
+placeName.sort();
+console.log(placeName);
+//sorting the array in reverse alphabetical order
+placeName.sort((a, b) => b.localeCompare(a));
+console.log(placeName);

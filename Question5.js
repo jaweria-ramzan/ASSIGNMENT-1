@@ -1,9 +1,6 @@
 "use strict";
-//Jaweria Ramzan
-//Stripping Names
-//Name with WhiteSpaces
-let pers_name = "\t Jaweria \n"; //Used "\t and \n"
-console.log(`With WhiteSpaces: ${pers_name}`);
-//Name without WhiteSpaces
-let Pers_Name = pers_name.trim();
-console.log(`Without WhiteSpaces: ${Pers_Name}`);
+//Famous Quote 2
+let famous_person = "Quaid-e-Azam Muhammad ali Jinnah";
+let famQuote = '"I do not believe in taking the right decision,I take a decision and make it right."';
+let message = `${famous_person} once said,${famQuote}`;
+console.log(message);

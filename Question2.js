@@ -1,9 +1,5 @@
 "use strict";
-//Name Cases
-let PersonName = "Jaweria";
-console.log(PersonName); //original string
-//In Lower Case
-console.log(PersonName.toLowerCase());
-//In Upper Case
-console.log(PersonName.toUpperCase());
-//TitleCase for Advance Students
+//Personal Message
+let personName = "Jaweria";
+let msg = `Hello ${personName}, would you like to learn some Python today?`;
+console.log(msg);

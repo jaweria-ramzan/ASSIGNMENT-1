@@ -1,7 +1,7 @@
-//Your Own Array
-let favMode: string[]=["Boat","Bike","Bicycle","Car","Aeroplane"];
-console.log(`I would like to own a ${favMode[0]}.`);
-console.log(`I would like to own a ${favMode[1]}.`);
-console.log(`I would like to own a ${favMode[2]}.`);
-console.log(`I would like to own a ${favMode[3]}.`);
-console.log(`I would like to own a ${favMode[4]}.`);
+//Names
+let friendsNames:string[]= ["Malaika","Meerab","Maryam","Maham","Mehak"];
+console.log(friendsNames[0]);
+console.log(friendsNames[1]);
+console.log(friendsNames[2]);
+console.log(friendsNames[3]);
+console.log(friendsNames[4]);

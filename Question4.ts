@@ -1,5 +1,5 @@
-//Famous Quote 2
-let famous_person="Quaid-e-Azam Muhammad ali Jinnah";
-let famQuote='"I do not believe in taking the right decision,I take a decision and make it right."';
-let message=`${famous_person} once said,${famQuote}`;
-console.log(message);
+//Famous Quote
+let famPerson="Albert Einstein";
+let Quote='"A person who never made a mistake never tried anything new."'
+let Message=`${famPerson} once said,${Quote}`;
+console.log(Message);

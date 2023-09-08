@@ -1,4 +1,2 @@
-//Personal Message
-let personName="Jaweria";
-let msg=`Hello ${personName}, would you like to learn some Python today?`;
-console.log(msg);
+//Install Node.js,Typescript and VS code on your computer
+//Done!
