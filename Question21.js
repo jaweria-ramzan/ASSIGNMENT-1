@@ -8,6 +8,8 @@ let fruits = {
     fruit4: "StrawBerry",
     fruit5: "Mango",
 };
+//accessing the object
+console.log(fruits);
 //accessing the items
 console.log(fruits.fruit1);
 console.log(fruits.fruit2);
