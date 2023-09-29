@@ -1,13 +1,19 @@
 "use strict";
-//Cars
-function car_Info(manufacturer, modelName, ...args) {
-    console.log("Manufacturer:", manufacturer);
-    console.log("ModelName:", modelName);
-    console.log("Color:", args[0]);
-    console.log("Sunroof:", args[1]);
+;
+function car_info(Manufacturer, ModelName, Color, SunRoof) {
+    const CarInfo = {
+        Manufacturer,
+        ModelName,
+        Color,
+    };
+    if (SunRoof) {
+        CarInfo.SunRoof = SunRoof;
+    }
+    ;
+    return CarInfo;
 }
 ;
-console.log(car_Info("Toyota", "Toyota Corolla", "Black", "No"));
-console.log(car_Info("Honda", "Honda Civic", "Black", "No"));
-console.log(car_Info("Ford", "Ford Mustang", "White", "Yes"));
-console.log(car_Info("BMW", "BMW 3 Series", "White", "Yes"));
+console.log(car_info("Toyota", "Toyota Corolla", "Black"));
+console.log(car_info("Honda", "Honda Civic", "Black"));
+console.log(car_info("Ford", "Ford Mustang", "White", "Yes"));
+console.log(car_info("BMW", "BMW 3 series", "white", "Yes"));

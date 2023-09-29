@@ -2,9 +2,10 @@
 //Question#41
 //Magicians
 const magiciansName = ["Adele", "Michael", "Deniz", "Ken", "Beyonce"];
-/*for (let i = 0; i < magiciansName.length; i++) {
+for (let i = 0; i < magiciansName.length; i++) {
     console.log(magiciansName[i]);
-    };*/
+}
+;
 function show_magicians(magiciansName) {
     for (let n = 0; n < magiciansName.length; n++) {
         console.log(magiciansName[n]);
